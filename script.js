@@ -55,7 +55,8 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
   // Compare the 'firstLetter' retrieved in STEP 11 to lower case
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
-  // name in the loop.
+  // name in the lo
+ 
 
   for(var i in names) {
     if (names[i].indexOf("j")==0 || names[i].indexOf("J")==0)
